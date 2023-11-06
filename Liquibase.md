@@ -1,0 +1,9 @@
+# Liquibase
+
+Liquibase adalah sebuah alat yang digunakan untuk mengelola skema database secara terstruktur dan terkendali. Liquibase memungkinkan Anda untuk mendefinisikan struktur database Anda dalam file XML atau YAML yang disebut "changelog", dan kemudian secara otomatis menerapkan perubahan skema database ke database yang sesuai dengan definisi tersebut. Ini adalah alat yang berguna dalam pengembangan perangkat lunak karena memungkinkan Anda untuk mengelola perubahan skema database dengan cara yang terstruktur dan dapat direplikasi.
+
+Spring Boot adalah kerangka kerja pengembangan aplikasi berbasis Java yang mempermudah pengembangan aplikasi dengan konsep "opiniated defaults" yang dapat mempercepat proses pengembangan. Salah satu fitur yang sangat berguna dalam Spring Boot adalah integrasi dengan berbagai alat pihak ketiga, termasuk Liquibase.
+
+Liquibase Spring Boot adalah integrasi antara Spring Boot dan Liquibase yang memungkinkan Anda untuk mengelola skema database Anda menggunakan Liquibase dalam proyek Spring Boot. Dengan Liquibase Spring Boot, Anda dapat mendefinisikan perubahan skema database Anda dalam file changelog dan secara otomatis menerapkannya ke database saat aplikasi Spring Boot Anda dimulai atau ketika ada pembaruan skema yang perlu diterapkan.
+
+Integrasi Liquibase dalam Spring Boot sangat berguna karena memungkinkan Anda untuk mengelola perubahan skema database Anda sebagai bagian dari kode Anda, dan otomatis menerapkannya saat aplikasi Anda dijalankan. Hal ini membantu menjaga konsistensi antara skema database dan aplikasi Anda, dan mempermudah pengembangan, pengujian, dan penyebaran aplikasi yang melibatkan perubahan skema database.
